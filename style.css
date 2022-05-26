@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eee;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+.heading{
+    height: 4rem;
+    width: 100%;
+    background-color:rgb(218, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.heading #ra{
+    font-size: 2.8rem;
+    padding: 10px;
+
+}
+span{
+    color: rgb(255, 70, 3);
+}
+.heading .nav a{
+ list-style: none;
+ text-decoration: none;
+ color: #000;
+ padding: 1rem 2rem;
+ font-size: 1.2rem;
+ font-weight: 600;
+}
+.heading .nav a:hover{
+    color:rgb(255, 70, 3) ;
+}
+.heading .nav #con{
+    border: 1px solid rgb(255, 70, 3);
+    background-color: rgb(255, 70, 3);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.heading .nav #con:hover{
+    color: #000;
+    background:none;
+}
+.container .di1{
+   width: 100%;
+   height: 50vh;
+   background-color: #000;
+   display: flex;
+    align-items: center;  
+    justify-content: center;
+   
+}
+/*  */
+.container .di1 .cont{
+    color: #eee;
+    text-transform: uppercase;
+
+}
+.container .di1 .cont p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.container .di1 .cont h1{
+    font-size: 2.2rem;
+}
+.container .di2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 214, 214);
+    display: flex;
+     align-items: center;  
+     justify-content: center;
+     flex-wrap: wrap;
+}
+.container .di2 .c1{
+    display: flex;
+     align-items: center;  
+     justify-content: center;
+     padding: 2rem 5rem;
+     gap: 3rem;
+     
+}
+.container .di2 .c1 img{
+    width:160px ;
+    height: 160px;
+    border-radius: 60%;
+    margin-bottom: -2rem;
+}
+.container .di2 .c1 .cont1{
+ text-align: left;
+ line-height: 1.2rem;
+}
+.container .di2 .c1 .cont1 #name{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .8rem 0;
+}
+.container .di2 .c1 .cont1 #p1{
+    font-size: 1rem;
+    padding:.8rem 0;
+    margin-bottom: .3rem;
+    margin-left: 2rem;
+}
+/* .container .di2 .c1 .cont1 .p1{
+    margin-bottom: -5rem;
+} */
+.container .di2 .c1 .cont1 .btn{
+    font-size: .9rem;
+    border: 1px solid rgb(255, 70, 3);
+    background-color: rgb(255, 70, 3);
+    padding: .6rem;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    color: #eee;
+    
+}
+.container .di2 .c1 .cont1 .btn:hover{
+    color: #000;
+    border: 1px solid rgb(255, 70, 3);
+    background: none;
+}
+.port .di3{
+    width: 100%;
+   height:100%;
+   background-color: #000;
+}
+.port .di4{
+    width: 100%;
+   height: 60vh;
+   background-color: rgb(218, 214, 214);
+}
+.port .di3 #t{
+    text-align: center;
+    font-size: .9rem;
+    color: #eee;
+    padding: 1rem;
+}
+.port .di3 hr{
+    margin-left: 35%;
+    width: 400px;
+    color: #eee;
+   
+}
+.port .di3 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.port .di3 .box .box1{
+    width: 250px;
+    height: 219px;
+    background-color:#eee;
+    border-radius: 5px;
+    margin: 2rem 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+.port .di3 .box .box1 img{
+   background: rgb(255, 70, 3);
+   border-radius: 50%;
+   padding: 1rem;
+    width:4rem;
+}
+.port .di3 .box .box1 .pr{
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 600;
+    padding: 1rem;
+}
+.port .di3 .box .box1 .te{
+    font-size: .9rem;
+    margin-top: -.4rem;
+}
+.port .di4 .cont1 .head{
+    color: #000;
+    
+}
+.di4 .cont1 .prog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 0 7rem;
+}
+.di4 .cont1 .prog .prog1{
+   margin-left: 5rem;
+    height: 35vh;
+    width: 600px;
+
+}
+ 
+.di4 .cont1 .prog .prog1 .c1{
+    font-size: 23px;
+    padding-left: 3rem;
+    margin: 1rem;
+}
+.di4 .cont1 .prog .prog1 .prog2
+{
+    line-height: .5rem;
+}
+.di4 .cont1 .prog .prog1 .prog2 p{
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding: .4rem 0;
+    font-weight: 700;
+    text-align: left;
+    margin-top: .6rem;
+    line-height: .7rem;
+}
+
+progress[value]{
+    width: 300px;
+    height: 8px;
+    
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar{
+    background-color:#333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3) inset;
+}
+::-webkit-progress-value{
+    background-color:rgb(255, 70, 3);
+   
+}
+.for{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.for form{
+   
+     background: #eeee;
+     width: 650px;
+    color: #000;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+     border-radius: 5px;
+     max-width: 97%;
+     padding: 55px 30px;
+
+}
+form .title h2{
+    letter-spacing: 3px;
+    padding-bottom: 6px;
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+
+}
+form .title div{
+    width: 6rem;
+    height: 2px;
+    margin-bottom: 32px;
+    margin-left:42% ;
+    background: rgb(255, 70, 3);
+    
+}
+form .lab{
+    display: flex;
+    justify-content: space-between;
+}
+form .lab .items{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 48%;
+}
+form label{
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+form .lab .items input{
+    border-radius: 5px;
+    border: 1px solid rgb(255, 70, 3);
+    outline: 0;
+    padding: 1rem;
+    width: 100%;
+    height: 38px;
+    background: transparent;
+    color: #222;
+    font-size: .9rem;
+}
+form .mes{
+    margin-bottom: 25px;
+}
+form .mes textarea{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 70, 3);
+    outline: 0;
+    padding: 12px 1rem;
+    width: 100%;
+    height: 150px;
+    font-size: .9rem;
+    color: #222;
+}
+form .action{
+    margin-bottom: 32px;
+}
+form .action input{
+ background-color: transparent;
+ border-radius: 5px;
+ border: 1px solid rgb(255, 70, 3);
+ cursor: pointer;
+ font-size: 1rem;
+ font-weight: 500;
+ letter-spacing: 2px;
+ height: 44px;
+ outline: 0;
+ padding: 0 20px 0 22px;
+ color: #000;
+ margin: 10px;
+}
+form .action input[type="submit"]{
+    background: rgb(255, 70, 3);
+   
+    color: #000;
+}
+
+form .action input[type="reset"]:hover{
+    background: #222;
+    color: #eee;
+}
+form .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .icons img{
+    width: 2rem;
+    cursor: pointer;
+    color: #eee;
+    font-weight: 600;
+    margin-right: 1.6rem;
+}
+form .icons img:hover{
+    margin-top: -1rem;
+    transition: .5s ;
+}
+/* form .icons #twit:hover{
+    background: 	#1DA1F2;
+    border-radius: 60%;
+    text-align: center;
+}
+form .icons #face:hover{
+    background: #3b5998;
+    border-radius: 60%;
+    text-align: center;
+}
+form .icons #git:hover{
+    background: #999999;
+    border-radius: 60%;
+    text-align: center;
+}
+form .icons #ins:hover{
+    background: 	#E1306C;
+    border-radius: 60%;
+    text-align: center;
+} */
+.footer{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+}
+.footer p{
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+
